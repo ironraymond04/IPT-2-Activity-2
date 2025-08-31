@@ -1,0 +1,101 @@
+/* General styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+/* Page Title */
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+/* Layout: Two columns */
+#container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px;
+  gap: 20px;
+}
+
+/* Left side: form */
+#userForm {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  width: 40%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+#userForm label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+#userForm input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  background: #2a2a2a;
+  color: #fff;
+}
+
+#userForm input:focus {
+  outline: none;
+  border: 1px solid #00bcd4;
+}
+
+/* Button styling */
+#userForm button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #00bcd4;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#userForm button:hover {
+  background: #0097a7;
+}
+
+/* Right side: user list */
+#users {
+  width: 55%;
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  min-height: 200px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+#users h2 {
+  margin-bottom: 15px;
+  color: #00bcd4;
+}
+
+.user-item {
+  background: #2a2a2a;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-item span {
+  color: #f1f1f1;
+}

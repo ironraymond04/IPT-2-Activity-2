@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add User</title>
+    <link rel="stylesheet" type="text/css" href="./src/style.css">
+  </head>
+<body>
+  <h1>Add User Form</h1>
+
+  <div id="container">
+    <form id="userForm">
+      <label>Name:</label>
+      <input type="text" id="name" required />
+
+      <label>Email:</label>
+      <input type="email" id="email" required />
+
+      <button id="confetti" type="submit">Add User</button>
+    </form>
+
+    <div id="users">
+      <h2>User List</h2>
+    </div>
+  </div>
+
+  <div id="result"></div>
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+
+</html>
